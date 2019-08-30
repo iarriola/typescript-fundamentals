@@ -1,0 +1,24 @@
+.vscode
+**node_modules**
+**dist**
+.env
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*
+
+# ignore yarn.lock
+yarn.lock

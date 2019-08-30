@@ -1,0 +1,27 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "strict": true, 
+    "target": "es6",
+    "module": "commonjs",
+    "watch": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "src/types/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+      "src/**/*"
+  ]
+}
